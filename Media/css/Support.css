@@ -1,0 +1,94 @@
+﻿#HeadlineWelcome 
+{
+    width: 255px;
+    height: auto;
+    padding: 10px 20px;
+    background: url('../img/Minor/Support/Welcome.bg.png');
+    font: bold 20px Arial;
+    margin-bottom: 30px; 
+    margin-top: 30px;
+}
+
+#YourSupporterPanel 
+{
+    width: 500px;
+    height: auto;
+    float: left;
+}
+
+.SupportProfileName 
+{
+    font:bold 14px Arial;
+    margin:6px 0 0 5px;
+    text-align:center;
+    width:144px;
+}
+
+#YourSupporter 
+{
+    background:url("../img/Minor/Support/YourSupporter.bg.png") repeat scroll 0 0 transparent;
+    float:left;
+    font:12px Arial;
+    height:47px;
+    margin-top:11px;
+    padding:8px 0 0 30px;
+    width:295px;
+}
+
+.SupporterName 
+{
+    font: bold 20px Arial;    
+}
+
+#SupporterPanelLeft 
+{
+    width: 152px;
+    height: auto;
+    float: left;
+    margin-left: 12px;  
+}
+
+#SupporterPanelRight 
+{
+    width: 157px;
+    height: auto;
+    float: left;    
+}
+
+.SupporterItemsLeft 
+{
+    background:url("../img/Minor/Support/SupporterItem.left.bg.png") repeat scroll 0 0 transparent;
+    float:left;
+    font:bold 14px Arial;
+    height:30px;
+    margin:5px 0 0;
+    padding:11px 0 0 15px;
+    width:137px;
+}
+
+.SupporterItemsRight 
+{
+    background:url("../img/Minor/Support/SupporterItem.right.bg.png") repeat scroll 0 0 transparent;
+    float:left;
+    font:bold 14px Arial;
+    height:30px;
+    margin:5px 0 0 3px;
+    padding:11px 0 0 15px;
+    width:142px;
+}
+
+#OtherSupportersOnline 
+{
+    width: 300px;
+    height: auto;
+    float: left;    
+}
+
+.OtherSupportHeadline 
+{
+    color:White;
+    font:bold 20px Arial;
+    margin-bottom:5px;
+    margin-top:11px;
+    width:280px;
+}

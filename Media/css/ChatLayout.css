@@ -1,0 +1,150 @@
+﻿* 
+{
+    font-family: Arial;
+    line-height: 15px;
+}
+
+
+#ChatBackground 
+{
+	width: 942px;
+	height: 602px;
+	background: url(../img/Minor/Chat/ChatBackground.png) no-repeat;
+	margin: 0 auto;	
+}
+#left 
+{
+        float: left;
+        height: 500px;
+        width: 700px;
+        color: #FFFFFF;
+
+}
+#divChatBox 
+{
+        width: 660px;
+        height: 430px;
+        border: 0;
+        margin:-5px 39px 40px 40px;
+        overflow-y: auto; 
+        overflow-x: hidden;
+}
+#txtMsg 
+{
+    width: 620px;
+    height: 37px;
+    border:0;
+    color: #333333;
+    padding: 2px 3px 0px 3px;
+    margin:13px 0 0 70px;
+    background: url(../img/Minor/Chat/TextBoxBg.png) no-repeat;  
+    float: left;	
+}
+#divUsers 
+{
+        float: left;
+        border: 0; 
+        margin-top: 30px; 
+        height: 300px; 
+        width: 150px;
+        color: #FFFFFF;
+        overflow-y: auto; 
+        overflow-x: hidden;
+}
+#divUsers a:hover
+{
+	cursor: pointer;
+	_cursor: hand;
+}
+
+.ChatMessageWrapper 
+{
+    width: auto;
+    height: auto;
+    background: red;
+    margin-top: 10px;
+}
+
+.ChatNameStyle 
+{
+    width: 225px;
+    margin-right: 26px;
+    margin-top: 10px;
+    float: left;
+}
+
+.ChatMessageStyle 
+{
+    width: 330px;
+    height: auto;
+    margin-top: 10px;
+    float: left;  
+}
+
+.ColorOwn .ChatNameStyle b
+{
+	color: #FFFFFF;
+}
+
+#OnlineiRummet 
+{
+    margin-top: 40px;  
+    font-size: 16px;
+    font-weight: bold;  
+    color: White;
+    width: 115px;
+}
+
+#Tools 
+{
+    clear:both;
+    width: 900px;
+    height: 50px;
+    margin-left:30px; 
+    float: left;
+}
+.send a { 
+display: block; 
+width: 142px; 
+height: 45px;
+margin-top: 10px;
+margin-left: 5px;
+background: transparent url(../img/Minor/Chat/Send_r012.png) no-repeat; 
+float: left;
+} 
+
+.send a:hover { 
+background-position: 0 -46px; 
+cursor: pointer;
+_cursor: hand;
+} 
+
+.send a:active { 
+background-position: 0 -92px; 
+}
+
+.LoggedContent h1 
+{
+	line-height: 25px;
+}
+
+.tooltip{ position: absolute; top: 0; left: 0; z-index: 3; display: none; 
+          background: #333;
+          border: solid 1px #000;
+          padding: 5px;
+}
+
+.tooltip a:hover
+{
+	cursor: pointer;
+	_cursor: hand;
+}
+
+/* PROFILVISNING */
+
+#ChatProfilVisning {
+    float: left;
+    margin-left: 20px;
+    margin-top: 8px;
+    width: auto;
+}

@@ -1,0 +1,21 @@
+﻿.Menulistingbox 
+{
+	width: 200px;
+	min-height: 100%;
+	float: left;
+	padding: 20px;
+	background-color: White;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.Contentbox 
+{
+	width: 650px;
+	min-height: 100%;
+	float: left;
+	padding: 20px;
+	margin-left: 10px;
+	background-color: White;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}

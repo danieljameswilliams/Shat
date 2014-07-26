@@ -1,0 +1,586 @@
+﻿@import url("reset.css");
+
+#preload1 {background: url(../img/Minor/Front/Login_LoginButton-Fade.png);display:none;}
+#preload2 {background: url(../img/Minor/Front/Front_CreateUser-M.png);display:none;}
+#preload3 {background: url(../img/Minor/Front/Front_CreateUser-A.png);display:none;}
+
+* 
+{
+	outline: 0;
+}
+
+.LoginBoks 
+{
+    width: 650px;
+    height: 165px;
+    margin: 0 auto;
+    background: url(../img/Major/Login_BlueGradientBox.png) no-repeat;
+}
+
+.LoggedInBoks 
+{
+    width: 650px;
+    height: 186px;
+    margin: 0 auto;
+    background: url('../img/Minor/LoggedIn/LoginBoks.png') no-repeat;
+}
+
+#username 
+{
+    width: 273px;
+    height: 61px;
+    border: solid 1px #46a3e2;
+    float:left;
+    margin-left:45px;
+    margin-top:40px;
+    background: #a9dcfe url(../img/Major/Login/Man.jpg) no-repeat; 
+}
+
+.usernametxt 
+{
+    
+    width:230px;
+    margin-left: 40px;
+    margin-top: 16px;
+}
+
+#password 
+{
+    width: 273px;
+    height: 61px;
+    border: solid 1px #46a3e2;
+    float:left;
+    margin-top:40px;
+    margin-left:7px;
+    background: #a9dcfe url(../img/Major/Login/keys.jpg) no-repeat; 
+}
+
+.passwordtxt 
+{
+    
+    width:230px;
+    margin-left: 40px;
+    margin-top: 16px;
+}
+
+.usernametxt, .passwordtxt 
+{
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 25px;
+	font-weight: bold;
+	border: 0;
+	line-height: 30px;
+	background-color: Transparent;
+	color: #333333;
+}
+
+#glemtkode
+{
+    float:right;
+    font-size: 12px;
+    font-weight:bold;
+	margin-right:48px;
+	margin-top:2px;
+	line-height: 15px;
+}
+
+#glemtkode a:hover
+{
+    color: White;
+}
+
+#Signin 
+{
+    margin:130px 0 0 239px;
+}
+
+
+.loginformfocus
+{
+	font-family: Arial;
+	font-size: 25px;
+	color: #98cdf0;
+}
+.loginformblur
+{
+	font-family: Arial;
+	font-size: 25px;
+	color: #333333;
+}
+.loginformkeydown
+{
+	font-family: Arial;
+	font-size: 25px;
+	color: #333333;
+}
+
+.pictureframe 
+{
+	width: 350px;
+	min-height: 200px;
+	margin-left: 110px;
+	margin-top: 50px;
+	float: left;	
+}
+#InfoPoster 
+{
+	width: 406px;
+	min-height: 506px;
+	margin-left: 0px;
+	margin-top: 50px;
+	background: url(../img/Minor/Front/Front_PaperInfobox.png) no-repeat; 
+	float: left;	
+}
+.forsideheadline1
+{
+	font-family: Arial;
+	font-size: 25px;
+	letter-spacing: -1px;
+	color: #333333;	
+	padding-left: 25px;
+	padding-top: 30px;
+}
+.opretprofilhere 
+{
+    display:block;
+    height:76px;
+    left:10px;
+    margin-left:80px;
+    position:relative;
+    top: 5px;
+    width:209px;
+}
+
+.opretprofilhere a 
+{	
+	display: block;
+	width: 209px;
+	height: 76px;
+	background: url(../img/Minor/Front/Front_CreateUser.png);
+}
+
+.opretprofilhere a:hover 
+{	
+	width: 209px;
+	height: 76px;
+	background: url(../img/Minor/Front/Front_CreateUser.png) 0 -82px;
+}
+
+.opretprofilhere a:active 
+{	
+	width: 209px;
+	height: 76px;
+	background: url(../img/Minor/Front/Front_CreateUser.png) 0 -161px;
+}
+
+.ButtonSlideSlime 
+{
+	width: 184px;
+	height: 51px;
+	margin-left: 187px;
+	margin-top: 28px;
+	display: block;
+	text-indent: -9999px;
+	z-index: 12;
+	float: left;
+}
+
+.ButtonSlideSlime a 
+{
+	width: 184px;
+	height: 51px;
+	display: block;
+	background: url(../img/Minor/Front/Login_LoginButton-Fade.png) no-repeat;
+}
+
+.InfoTexts 
+{
+    background:url("../img/Minor/Front/Grid.png") repeat scroll 0 0 transparent;
+    height:223px;
+    margin-left:30px;
+    margin-top:-45px;
+    padding-top:70px;
+    width:341px;
+}
+
+.ProfileBackground 
+{
+	width: 154px;
+	height: 195px;
+	background: url(../img/Major/ProfileBackgroundFade.png);
+	padding-top: 16px;
+	float: left;
+	margin: 7px;
+	margin-left:0;
+}
+
+.ProfilePictureFrame
+{
+	width: 122px;
+	height: 160px;
+	border: solid 1px #6b6b6b;
+	margin-left: 14px;
+}
+.ProfileSex
+{
+	width: 20px;
+	display: block;
+	float: left;
+	margin-left: 15px;
+	margin-top: 4px;
+}
+
+.ProfileName
+{
+	width: 100px;
+	float: left;
+	margin-top: 6px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 14px;
+	margin-left: 7px;	
+}
+
+.ProfileFrontheadliner,.ProfileFrontheadlinerspecial
+{
+	width: 234px;
+	height: 32px;
+	background: url(../img/Minor/Front/Front_HeadlineBackground.png);	
+	font-family: Arial;
+	font-size: 25px;
+	letter-spacing: -1px;
+	color: #333333;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-top: 13px;
+	margin-bottom: 10px;
+
+}
+
+.ProfileFrontheadlinerspecial 
+{
+	width: 387px;
+	background: white;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+}
+
+/* RET PROFIL */
+.fourcolumnblock 
+{
+    width: 150px;
+    height: 100px;
+    background: red;
+    float: left;
+}
+
+.fourcolumnblock h1 
+{
+}
+
+.LoggedMenu 
+{
+    float:left;
+    margin-right:20px;
+    width:270px; 
+}
+
+.LoggedContent 
+{
+    color:#FFFFFF;
+    float:left;
+    line-height:26px;
+    margin-top:20px;
+    width:460px;
+}
+
+
+.LMI 
+{
+    width: 233px;
+    height: 40px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;   
+}
+
+.LMH
+{
+    width: 198px;
+    height: 15px;
+    padding: 15px 15px 15px 15px;
+    color: #333333;
+    margin: 20px 0 10px 0;
+    background: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: default; 
+}
+
+.LMI a 
+{
+    color:#FFFFFF; 
+    text-decoration:none;
+    width: 198px;
+    height: 15px;
+    padding: 15px 15px 15px 15px;
+    display:block;
+    cursor: pointer;
+}
+.LMI a:hover 
+{
+    width: 198px;
+    height: 15px;
+    display:block;
+    background: #FFFFFF;
+    color: #333333;
+}
+
+#LoggedInWelcomeHeader 
+{
+    width: 808px;
+    height: 53px;
+    margin: 0 auto;
+    margin-top: 35px;
+    background: url('../img/Minor/LoggedIn/TopHeaderBg.png');    
+}
+
+#LoggedInWelcomeYou 
+{
+    width: 502px;
+    height: auto;
+    font: bold 25px Arial;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+    color: #3d3c3c;
+}
+
+#LoggedInWelcomeChat 
+{
+    width: 200px;
+    height: auto;
+    font: bold 25px Arial;
+    margin-top: 10px;
+    float: left;
+    color: #3d3c3c;
+}
+
+#LoggedInLeftWrapper 
+{
+    width: 500px;
+    min-height: 100px;
+    float: left;
+}
+
+#LoggedInRightWrapper 
+{
+    float:left;
+    margin-left:20px;
+    min-height:100px;
+    width:260px;
+    margin-top: 20px;
+}
+
+#LoggedInWrapper 
+{
+    margin: 0 auto;
+    width: 800px; 
+}
+
+.darklist2 
+{
+	height: 37px;
+	background: url(../img/Major/only20.png);
+}
+
+.darklist2:hover
+{
+	background: url(../img/Major/only20-A.png);
+}
+
+.lightlist2 
+{
+	height: 36px;
+	background: url(../img/Major/only30.png);
+}
+
+.lightlist2:hover 
+{
+	background: url(../img/Major/only20-A.png);
+}
+.lightlist2,.darklist2
+{
+    display: block;
+    height: 36px;
+}
+
+#LoggedInRightWrapper a 
+{
+    font: bold 14px Arial;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    width: 238px;
+    height: 27px;
+    padding:9px 0 0 20px;
+}
+
+#LoggedInRightWrapper a:hover 
+{
+    font: bold 14px Arial;
+    color: #FFFFFF;
+    text-decoration: underline;    
+}
+
+.chatroomtextoflink 
+{
+    width: 215px;
+    height: auto;
+    float: left;    
+}
+
+.chatroomnumberofroom 
+{
+    width: 45px;
+    height: auto;
+    float: left;
+    font: bold 14px Arial;
+    color: #333333;
+    text-decoration: none;  
+}
+
+.LoggedInChatRoomImg 
+{
+    margin-top: 8px;
+    float: left;   
+}
+
+.LoggedInChatRoomNumber 
+{
+    float: left;
+    margin-top: 9px;
+    margin-right: 5px;
+    cursor: pointer;   
+}
+
+.FAQSetupHeadline 
+{
+    background:url("../img/Minor/LoggedIn/LeftSideMenuHeaderBg.png") repeat scroll 0 0 transparent;
+    height:50px;
+    margin-top:20px;
+    width:500px;
+}
+
+.FAQSetupText 
+{
+    color:#333333;
+    float:left;
+    font:bold 20px Arial;
+    height:auto;
+    padding:12px 0 0 20px;
+    width:425px;
+}
+
+.FAQSetupIcon 
+{
+    background:url("../img/Minor/LoggedIn/CloseitFAQ.png") no-repeat scroll 0 0 transparent;
+    float:left;
+    height:40px;
+    margin-top:7px;
+    width:35px;
+    cursor: pointer;
+}
+
+.FAQContent 
+{
+    width: 500px;
+    height: auto;
+    min-height: 50px;
+    display: block;
+}
+
+.FAQContentItem 
+{
+    background:url("../img/Minor/LoggedIn/LeftSideMenuContentBg.png") repeat scroll 0 0 transparent;
+    float:left;
+    height:auto;
+    margin-top:2px;
+    padding:10px 20px;
+    width:460px;
+    font: bold 12px Arial;
+    color: #FFFFFF;
+}
+
+.DefaultSelects
+{
+    background:none repeat scroll 0 0 #FFA200;
+    border:1px solid #FFFFFF;
+    color:White;
+    float:right;
+    height:20px;
+    margin-right:25px;
+    outline:1px solid #EAEAEA;
+    padding-left:20px;
+    padding-top:0px;
+    width:310px;
+}
+
+.DefaultSelects option 
+{
+	padding: 10px 20px;
+	border-bottom: solid 1px #cecece;
+}
+
+.DefaultSelects option:first-child 
+{
+	padding: 5px 20px;
+	background: #55b3f0;
+	border-bottom: solid 3px #cecece;
+	font-weight: bold;
+}
+
+.InfoTextsItemWrapper 
+{
+    width: 320px;
+    margin-bottom: 2px;
+    height: 107px;    
+}
+
+.InfoTextsLeft 
+{
+    float:left;
+    height:77px;
+    margin-left:10px;
+    padding-top: 30px;
+    width:80px;
+}
+
+.InfoTextsRight 
+{
+    color:#333333;
+    float:left;
+    font:12px Lucida Sans Unicode;
+    height:80px;
+    letter-spacing:0;
+    padding:27px 0 0 15px;
+    width:172px;
+}
+
+#laesmereomshat 
+{
+    width: 330px;
+    text-align: center;
+    font: bold 20px Arial;
+    color: #8a8a8a;
+    margin-top: 30px;  
+}
+
+#laesmereomshat a 
+{
+    font: bold 20px Arial;
+    color: #8a8a8a;
+    text-decoration: none;
+}
+
+#laesmereomshat a:hover { text-decoration: underline; }

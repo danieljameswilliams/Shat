@@ -1,0 +1,273 @@
+﻿.FacebookWrapper 
+{
+	width: 650px;
+	height: 163px;
+	background: red;
+	margin-bottom: 30px;	
+	background: url('../img/Minor/CreateUser/FacebookBg.png') no-repeat;
+}
+
+.FacebookText 
+{
+	width: 350px;
+	height: 150px;
+	padding-top: 10px;
+	margin-left: 180px;
+}
+
+.OpretContent 
+{
+	width: 650px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: left;
+}
+
+.FacebookWrapper h1 
+{
+	font-size: 20px !important;
+	font-family: Arial;
+	line-height: 24px;
+	letter-spacing: -1px;
+	text-align: center;
+	color: White;	
+}
+
+.SyncFacebook 
+{
+	width: 305px;
+	height: 64px;
+	margin-left: 25px;
+	background: url('../img/Minor/CreateUser/btnSync.png') no-repeat;	
+}
+
+.CreateInfoWrapper 
+{
+	width: 606px;
+	height: 244px;
+	padding: 20px;
+	margin-bottom: 20px;
+	background: url('../img/Minor/CreateUser/ContentBg_Splash.png');	
+}
+
+.CreatingHeadline 
+{
+	font-size: 36px;
+	letter-spacing: -1px;
+	color: #FFFFFF;	
+}
+
+.InfoHeadline 
+{
+	font-size: 30px;
+	color: #333333;
+	font-weight: bold;
+	text-align: right;	
+}
+
+.InfoLabel
+{
+	width: auto;
+	height: auto;
+	clear: both;
+	text-align: left;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	color: #333333;
+	margin-bottom: 3px;	
+}
+
+.txtInfo 
+{
+	width: 413px;
+	height: 47px;
+	border:0;
+	margin-bottom: 20px;
+	padding: 0px 10px 0px 20px;
+	color: #FFFFFF;
+	font: bold 20px Arial;
+	background: url('../img/Minor/CreateUser/TextboxBg.png');
+}
+
+.txtNameInfo 
+{
+	width: 185px;
+	height: 47px;
+	border:0;
+	float: left;
+	margin-bottom: 20px;
+	padding: 0px 10px 0px 20px;
+	color: #FFFFFF;
+	font: bold 20px Arial;
+	margin-right: 10px;
+	background: url('../img/Minor/CreateUser/TextboxBg.png');
+}
+
+.NextButton 
+{
+	margin-bottom: 50px;	
+}
+
+.ddlCivilstatusClass 
+{
+	width: 420px;
+	height: 26px;
+	padding-top: 2px;
+	padding-left: 20px;
+	margin: 5px 0;
+	border: solid 1px #FFFFFF;
+	outline: solid 1px #eaeaea;
+	color: White;
+	background: #ffa200;
+}
+
+.ddlCivilstatusClass option
+{
+	padding: 10px 20px;
+	border-bottom: solid 1px #cecece;
+}
+
+.ddlCivilstatusClass option:first-child 
+{
+	padding: 5px 20px;
+	background: #55b3f0;
+	border-bottom: solid 3px #cecece;
+	font-weight: bold;
+}
+
+.InfoddlWrapperen 
+{
+	width: 275px;
+	height: auto;
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.valgfri 
+{
+	color: #CECECE;
+	font-weight: normal !important;	
+}
+
+.NextStep 
+{
+	width: 324px;
+	height: 63px;
+	display: block;
+	float: left;
+	background: url('../img/Minor/CreateUser/NextStep.png') no-repeat;	
+}
+
+.NextStep:hover
+{
+	background:url("../img/Minor/CreateUser/NextStep.png") no-repeat scroll 0 -66px transparent;
+	display:block;
+}
+
+.NextStep:active
+{
+	background:url("../img/Minor/CreateUser/NextStep.png") no-repeat scroll 0 -132px transparent;
+	display:block;
+}
+
+.GoBack 
+{
+	width: 326px;
+	height: 63px;
+	display: block;
+	float: left;
+	background: url('../img/Minor/CreateUser/btnGaaTilbage.png') no-repeat;	
+}
+
+.GoBack:hover
+{
+	background:url("../img/Minor/CreateUser/btnGaaTilbage.png") no-repeat scroll 0 -66px transparent;
+	display:block;
+}
+
+.GoBack:active
+{
+	background:url("../img/Minor/CreateUser/btnGaaTilbage.png") no-repeat scroll 0 -132px transparent;
+	display:block;
+}
+
+.FinishOpret 
+{
+	width: 324px;
+	height: 63px;
+	display: block;
+	float: left;
+	background: url('../img/Minor/CreateUser/OpretProfilen.png') no-repeat;	
+}
+
+.FinishOpret:hover
+{
+	background:url("../img/Minor/CreateUser/OpretProfilen.png") no-repeat scroll 0 -65px transparent;
+	display:block;
+}
+
+.FinishOpret:active
+{
+	background:url("../img/Minor/CreateUser/OpretProfilen.png") no-repeat scroll 0 -130px transparent;
+	display:block;
+}
+
+.FinishGlemtKodeord 
+{
+	width: 324px;
+	height: 63px;
+	display: block;
+	float: left;
+	background: url('../img/Minor/GlemtKodeord/SendKodeord.png') no-repeat;	
+}
+
+.FinishGlemtKodeord:hover
+{
+	background:url("../img/Minor/GlemtKodeord/SendKodeord.png") no-repeat scroll 0 -66px transparent;
+	display:block;
+}
+
+.FinishGlemtKodeord:active
+{
+	background:url("../img/Minor/GlemtKodeord/SendKodeord.png") no-repeat scroll 0 -132px transparent;
+	display:block;
+}
+
+.KodeordsInfoWrapper
+{
+	width: 606px;
+	height: 170px;
+	padding: 20px;
+	margin-bottom: 20px;
+	background: url('../img/Minor/GlemtKodeord/SendKodeBg.png');	
+}
+
+.txtFoedsel 
+{
+	width: 40px;
+	height: 47px;
+	border:0;
+	margin-bottom: 20px;
+	padding: 0px 10px 0px 20px;
+	color: #FFFFFF;
+	float: left;
+	font: bold 20px Arial;
+	margin-right: 10px;
+	background: url('../img/Minor/CreateUser/TextboxBg.png');
+}
+
+.txtFoedselyear 
+{
+	width: 100px;
+	height: 47px;
+	border:0;
+	margin-bottom: 20px;
+	padding: 0px 10px 0px 20px;
+	color: #FFFFFF;
+	float: left;
+	font: bold 20px Arial;
+	background: url('../img/Minor/CreateUser/TextboxBg.png');
+}

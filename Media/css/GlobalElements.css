@@ -1,0 +1,492 @@
+﻿@import url("reset.css");
+* 
+{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+body
+{
+	background-image: url(../img/Major/bgrepeat.jpg);
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 18px;
+	background-color: #FC8C00;
+}
+
+.clear 
+{
+	clear: both;	
+}
+
+#BackgroundShade 
+{
+	width: 100%;
+	height: 534px;
+	background: url(../img/Major/bgtop.jpg) no-repeat center top;
+}
+
+#wrapper 
+{
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+	z-index: 2;
+}
+#top 
+{
+	width: 600px;
+	height: 112px;
+	margin: 0 auto;
+	float: left;	
+}
+#logo, #logo a
+{
+	width: 106px;
+	height: 42px;
+	float: left;
+}
+#logo 
+{
+	margin: 50px 0 0 175px;
+}
+#logo a 
+{
+	background-image: url(../img/Major/logo_Shat.png);
+	display: block;
+}
+
+#logoRightSpot 
+{
+	width: 106px;
+	height: 42px;
+	float: left;
+}
+#Content 
+{
+	width: 960px;
+	min-height: 200px;
+	margin-bottom: 50px;
+}
+
+#glemtkode a 
+{
+	color: #2e86c3;
+	text-decoration: none;
+}
+
+.ProfileSitePicture 
+{
+    background:url("../img/Minor/User/AvatarBg.png") repeat scroll 0 0 transparent;
+    float:left;
+    height:160px;
+    margin-right:10px;
+    padding:7px;
+    width:122px;
+}
+
+.ProfileSiteName 
+{
+	font-family: Arial;
+	font-size: 36px;
+	line-height: 27px;
+	color: White;
+	font-weight: bold;
+	letter-spacing: -2px;
+	padding-top: 5px;
+		
+}
+
+.ProfileSiteHeadline 
+{
+	font-family: Arial;
+	font-size: 20px;
+	color: #333333;
+	font-weight: bold;
+	letter-spacing: -1px;
+	margin-bottom: 7px;
+}
+
+.infowrapper 
+{
+	float: left;
+	width: 280px;
+}
+
+.picturewrapper 
+{
+	margin-left: 10px;
+	float: left;
+}
+
+.leftwrapper 
+{
+	width: 450px;
+	float: left;	
+}
+
+.rightwrapper 
+{
+	width: 406px;
+	padding-left: 20px;
+	background: url(../img/Minor/LoggedIn/Splitter.png) no-repeat;
+	float: left;	
+}
+
+#Acticityfeed 
+{
+	width: auto;
+	float: right;
+	margin-top: 7px;
+	margin-right: 20px;
+}
+#Profilvisning 
+{
+	width: auto;
+	float: left;
+	margin-top: 7px;
+	margin-left: 20px;
+}
+
+#Profileheader 
+{
+	width: 900px;
+	height: 50px;
+	margin-bottom: 20px;
+	font: bold 30px Arial;
+	color: #333333;
+	letter-spacing: -1px;
+	background: white;
+}
+
+.darklist 
+{
+	width: 430px;
+	height: 37px;
+	background: url(../img/Major/only20.png);
+}
+
+.darklist:hover
+{
+	background: url(../img/Major/only20-A.png);
+}
+
+.lightlist 
+{
+	width: 430px;
+	height: 36px;
+	background: url(../img/Major/only30.png);
+}
+
+.lightlist:hover 
+{
+	background: url(../img/Major/only20-A.png);
+}
+.lightlist,.darklist
+{
+    display: block;
+    height: 36px;
+}
+
+.rightfieldname 
+{
+	margin-left: 30px;
+	margin-top: 10px;
+	width: 150px;
+	float: left;
+	font-weight: bold;
+	color: #333;	
+}
+
+.rightfieldanswer,.rightfieldanswerspecial
+{
+	margin-right: 50px;
+
+	margin-top: 10px;
+	float: left;	
+	font-weight: normal;
+	color: #333;	
+}
+
+.rightfieldanswerspecial
+{
+	margin-top: 7px;
+}
+
+#mulighedsbox 
+{
+	width: 430px;
+	height: 134px;
+	margin-top: 51px;
+	background: url(../img/Major/mulighedsbox.png);
+	padding: 10px;
+	float: left;
+}
+
+#mulighedsbox2 
+{
+	width: 430px;
+	height: 134px;
+	margin-top: 45px;
+	background: url(../img/Major/mulighedsbox.png);
+	padding: 10px;
+	float: left;
+}
+
+#dinemuligheder 
+{
+	font-size: 24px;
+	color: #333333;
+	font-weight: bold;
+	margin: 10px 0 0 19px;	
+}
+
+#mulighedswrapper 
+{
+	width: 450px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.mulighedsitem 
+{
+	width: 115px;
+	float: left;
+	padding: 2px;
+	padding-left: 5px;
+	margin: 0 5px;
+	font-size: 12px;
+	font-weight: bold;
+	color: White;
+	cursor: pointer;
+}
+
+.mulighedsitem:hover
+{
+	background: White;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	color: #333;
+}
+
+.pnlUserProfile 
+{
+	display: none;	
+}
+
+.AvatarFrame 
+{
+    background:url("../img/Major/login/avatarframe.png") repeat scroll 0 0 transparent;
+    height:138px;
+    padding:6px 0 0 6px;
+    margin:16px 0 0 20px;
+    width:105px;
+    float: left;
+}
+
+.NavnogUpdate 
+{
+    float:left;    
+    margin: 15px 0 0 5px;
+    color: #FFFFFF;
+}
+
+.NavnogUpdate h1 
+{
+    font: bold 20px Arial;
+    margin-top: 9px;
+}
+
+.NavnogUpdate p 
+{
+    margin: 0;
+    padding: 0;
+    font: bold 12px Arial;
+    margin-top: 3px; 
+}
+
+.LoggedInLeft 
+{
+    width: 465px;
+    height: auto;
+    float: left;
+}
+
+.ChooseRoom 
+{
+    width: 184px;
+    height: 52px;
+    margin:26px 0 0 65px;
+    display: block;
+    background: url('../img/Minor/LoggedIn/ChooseChatRoom.png') no-repeat 0 0; 
+}
+
+.ChooseRoom:hover 
+{
+    display: block;
+    background: url('../img/Minor/LoggedIn/ChooseChatRoom.png') no-repeat 0 -55px; 
+}
+
+.ChooseRoom:active 
+{
+    display: block;
+    background: url('../img/Minor/LoggedIn/ChooseChatRoom.png') no-repeat 0 -109px; 
+}
+
+.TopToolbarMenuItem 
+{
+    width: auto;
+    height: auto;
+    float: left;
+    margin: 0 5px;
+    font: bold 12px Arial;
+    color: #FFFFFF;
+}
+
+#TopToolbarMenu 
+{
+    float:left;
+    height:10px;
+    margin:5px 0 0 25px;
+    width:500px;
+}
+
+.OnlineCount
+{
+    color: #333333;    
+}
+
+.LogOutStyle 
+{
+    font: bold 12px Arial;
+    text-decoration: none;
+    color: #FFFFFF;    
+}
+
+.LogOutStyle:hover 
+{
+    font: bold 12px Arial;
+    text-decoration: underline;
+    color: #FFFFFF;    
+}
+
+.LoggedInRight 
+{
+    float:left;
+    height:175px;
+    margin-top:13px;
+    width:180px;
+}
+
+#VennelisteName 
+{
+    width: 65px;
+    margin-left: 63px;
+    font: bold 12px Arial;
+    color: #333333;
+    margin-top: -23px;
+    cursor: pointer; 
+}
+
+#RightMenuWrapper
+{
+    width: auto;
+    height: auto;
+    margin: 25px 0 0 0px;    
+}
+
+.RightMenuItem
+{
+    width: 100px;
+    font: bold 12px Arial;
+    color: #FFFFFF;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.RightMenuItem:hover
+{
+    text-decoration: underline;
+}
+
+.RightMenuSplitter
+{
+    width: 144px;
+    height: 5px;
+    background: url('../img/Minor/LoggedIn/RightMenuSplitter.png') no-repeat 0 0;   
+}
+
+.whitecolor 
+{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+#ProfileWrapperforLight 
+{
+    width: 900px;
+    height: 400px;
+    background: url('../img/Major/BodyBackgroundShaden.png') no-repeat center top;    
+}
+
+.Oplysningsfelt 
+{
+    width: 420px;
+    background: White;
+    color:#333333;
+    font-family:Arial;
+    font-size:25px;
+    font-weight:bold;
+    height:32px;
+    letter-spacing:-1px;
+    margin-bottom:10px;
+    padding-left:10px;
+    padding-top:13px;    
+}
+
+.LoggedInRight a
+{
+    color: White;
+    text-decoration: none;    
+}
+
+.LoggedInRight a:hover 
+{
+    color: White;
+    text-decoration: underline;    
+}
+
+#BringToCenter 
+{
+    margin: 0 auto;
+    width: 800px;    
+}
+
+.SupportLogonButton 
+{
+    color:#FFFFFF;
+    font:bold 12px Arial;
+    text-decoration:none;
+}
+
+#SupportLogonBox 
+{
+    float:left;
+    margin-right:197px;
+    width: 100px; 
+}
+
+#ChattersInRightColumn 
+{
+    float: left;    
+}
+
+#VennelisteBox 
+{
+    width: 300px;
+    height: 300px;
+    background: White;
+    color: Black;
+    position: absolute;    
+}

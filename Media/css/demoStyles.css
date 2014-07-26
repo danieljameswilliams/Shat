@@ -1,0 +1,43 @@
+/* Stylesheet for my demo pages for jScrollPane - these styles aren't necessary for using jScrollPane and aren't specific to any particular example */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
+}
+a.jScrollArrowUp {
+	background: url(../img/Minor/Chat/Scroll_Top.png) repeat-x 0 0;
+}
+a.jScrollArrowUp:hover {
+	
+}
+a.jScrollArrowDown {
+	background: url(../img/Minor/Chat/Scroll_Bottom.png) repeat-x 0 0;
+}
+a.jScrollArrowDown:hover {
+	
+}
+a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
+	
+}
+.jScrollPaneDragTop 
+{
+    background: url(../img/Minor/Chat/Scroll_Middle_BlueTop.png) no-repeat 50% 50%;
+    height: 9px;
+    width: 14px;
+}
+.jScrollPaneDragBottom 
+{
+    background: url(../img/Minor/Chat/Scroll_Middle_BlueBottom.png) no-repeat 50% 50%;
+    height: 9px;
+    width: 14px;
+}
+.jScrollPaneTrack {
+	
+}
+.jScrollPaneDrag {
+	background: url(../img/Minor/Chat/Scroll_Middle_Blue.png) repeat-y 50% 50%;
+}
+.scroll-pane {
+	overflow: auto;
+	float: left;
+}

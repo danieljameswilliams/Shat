@@ -1,0 +1,699 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+
+
+
+
+<script src="jquery-1.4.2.js" type="text/javascript"></script>
+<script src="jquery_formHighlighter.js" type="text/javascript"></script>
+
+    <title>
+	Shat - A Community Site
+</title><link rel="shortcut icon" href="favicon.png"><link href="Media/css/DefaultSite.css" media="screen" rel="stylesheet" type="text/css"><link href="Media/css/GlobalElements.css" media="screen" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" type="text/css" media="all" href="Media/css/demoStyles.css">
+<link rel="stylesheet" type="text/css" media="all" href="Media/css/jScrollPane.css">
+
+
+
+<script type="text/javascript" src="Media/scripts/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="Media/scripts/jScrollPane.js"></script>
+<script type="text/javascript" src="Media/scripts/jquery.simpletip-1.3.1.pack.js"></script>
+<script type="text/javascript" src="Media/scripts/jquery.single_double_click.js"></script>
+
+<script type="text/javascript" src="Media/scripts/jquery-ui-1.8.2.custom.min.js"></script>
+
+<link href="Media/css/ChatLayout.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.UserProfileOpening { width:950px; 
+height:500px; display:none; }
+</style>
+
+<link href="Media/css/privChat.css" rel="stylesheet" type="text/css">
+
+</head><body>
+    <form name="aspnetForm" method="post" action="Chat.aspx?Room=1" id="aspnetForm">
+<div>
+<input name="__EVENTTARGET" id="__EVENTTARGET" value="" type="hidden">
+<input name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" type="hidden">
+<input name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTg0NjQxMjc5OQ9kFgJmD2QWAgIDD2QWAgIDD2QWAgIBD2QWBAIBD2QWCAIBDw8WAh4EVGV4dAUQTG9nIGFmIFN1cHBvcnRlbmRkAgUPDxYCHghJbWFnZVVybAUmLi4vTWVkaWEvaW1nL1Byb2ZpbGUvc21hbGwvaHVrYWlkby5qcGdkZAIHDxYCHwAFClBldGVyIEhvbG1kAg0PFgIfAAWcBDxkaXYgY2xhc3M9J1JpZ2h0TWVudUl0ZW0nPjxhIGhyZWY9Jy9Qcm9maWwuYXNweD9pZD0yJz5WaXMgUHJvZmlsPC9hPjwvZGl2PjxkaXYgY2xhc3M9J1JpZ2h0TWVudVNwbGl0dGVyJz48L2Rpdj48ZGl2IGNsYXNzPSdSaWdodE1lbnVJdGVtJz5SZXQgUHJvZmlsPC9kaXY+PGRpdiBjbGFzcz0nUmlnaHRNZW51U3BsaXR0ZXInPjwvZGl2PjxkaXYgY2xhc3M9J1JpZ2h0TWVudUl0ZW0nPkluZHN0aWxsaW5nZXI8L2Rpdj48ZGl2IGNsYXNzPSdSaWdodE1lbnVTcGxpdHRlcic+PC9kaXY+PGRpdiBjbGFzcz0nUmlnaHRNZW51SXRlbSc+RmFjZWJvb2sgU3luYzwvZGl2PjxkaXYgY2xhc3M9J1JpZ2h0TWVudVNwbGl0dGVyJz48L2Rpdj48ZGl2IGNsYXNzPSdSaWdodE1lbnVJdGVtJz5WYWxpZGVyIFByb2ZpbDwvZGl2PjxkaXYgY2xhc3M9J1JpZ2h0TWVudVNwbGl0dGVyJz48L2Rpdj48ZGl2IGNsYXNzPSdSaWdodE1lbnVJdGVtJz48YSBvbmNsaWNrPSdEZWFrdGl2ZXJfQ2xpY2snIG5vaHJlZj0nbm9ocmVmJz5EZWFrdGl2ZXIgUHJvZmlsPC9hPjwvZGl2PmQCAw8PFgIeB1Zpc2libGVoZGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgIFOGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkTG9naW5TdGF0dXMkTG9naW5TdGF0dXMxJGN0bDAxBThjdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJExvZ2luU3RhdHVzJExvZ2luU3RhdHVzMSRjdGwwM8lLLyn7b6MZQdquCfUNKYKFtm7/" type="hidden">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=iTw94yq8eLp3GaN6Q8GVJg2&amp;t=634075436648750000" type="text/javascript"></script>
+
+
+<script type="text/javascript" src="/ajaxpro/prototype.ashx"></script>
+<script type="text/javascript" src="/Media/scripts/core.js"></script>
+<script type="text/javascript" src="/ajaxpro/converter.ashx"></script>
+<script type="text/javascript" src="/ajaxpro/Controls_Chat,App_Web_pijxqpdd.ashx"></script>
+<script type="text/javascript">
+var queryString = new Ajax.Web.NameValueCollection([["Room","1"]]);
+var form = new Ajax.Web.NameValueCollection([]);
+</script>
+
+<script src="/ScriptResource.axd?d=DZv8y1d9ihkjfOLdcGY7GycpJ2njTNokvU9aObK4c6vKs4eRkPKdzU3ZcsFAmi14kryXY2pMz_k5enq1QQxxmTBKVJuKrsyu65omblk6ees1&amp;t=634075438450312500" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=DZv8y1d9ihkjfOLdcGY7GycpJ2njTNokvU9aObK4c6vKs4eRkPKdzU3ZcsFAmi14RQgWcOaQjyZTvbkLDTUxRnyJ8PWNZWFB-qjx8gZcFNKCZy2azJqCdcb_ecD0-KQO0&amp;t=634075438450312500" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
+//]]>
+</script>
+
+    
+    <div id="BackgroundShade">
+            <div id="wrapper">
+                <div id="top">
+
+                    <div id="logo"><a href="Default.aspx"></a></div>
+                    <div id="logoRightSpot"></div>
+                </div>
+                <div class="clear"></div>
+                <div id="Content">
+                
+
+
+
+
+<div class="ui-droppable" id="everything">
+        
+        <div class="ui-droppable" id="droppable">
+            <div id="innerdroppable">
+                <div class="placeholder">Træk elementer her ned</div>
+
+            </div>
+        </div>
+        
+
+        
+
+<script type="text/javascript">
+    $(document).ready(function()
+        {
+                $(".LoginBoks").formHighlighter({
+            classFocus: 'loginformfocus',
+            classBlur: 'loginformblur',
+            classKeyDown: 'loginformkeydown'
+                });
+        });
+</script>
+
+<div id="ctl00_ContentPlaceHolder1_LoginStatus_isauth">
+	
+    <div class="LoggedInBoks">
+    <div id="TopToolbarMenu">
+        <div id="SupportLogonBox"><a id="ctl00_ContentPlaceHolder1_LoginStatus_SupportLogon" class="SupportLogonButton" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$LoginStatus$SupportLogon','')">Log af Supporten</a></div>
+        <div class="TopToolbarMenuItem OnlineCount">1.200 Online</div><div class="TopToolbarMenuItem"><a class="LogOutStyle" href="Support.aspx">Support</a></div><div class="TopToolbarMenuItem"><a id="ctl00_ContentPlaceHolder1_LoginStatus_LoginStatus1" class="LogOutStyle" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$LoginStatus$LoginStatus1$ctl00','')">Log ud</a></div></div> 
+        <div class="LoggedInLeft">
+
+            <div class="AvatarFrame">
+                <img id="ctl00_ContentPlaceHolder1_LoginStatus_AvatarControlPanel" src="Media/img/Profile/small/hukaido.jpg" style="height: 132px; width: 100px; border-width: 0px;">
+            </div>
+            <div class="NavnogUpdate">
+                <h1>Peter Holm</h1>
+                <p>Sidste Login: igår kl 10:00</p>
+                <a id="ctl00_ContentPlaceHolder1_LoginStatus_lbChooseChatRoom" class="ChooseRoom" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$LoginStatus$lbChooseChatRoom','')"></a>
+                
+            </div>
+
+        </div>
+        <div class="LoggedInRight">
+        <div id="VennelisteName">Venneliste</div>
+
+            <div id="RightMenuWrapper">
+                <div class="RightMenuItem"><a href="/Profil.aspx?id=2">Vis Profil</a></div><div class="RightMenuSplitter"></div><div class="RightMenuItem">Ret Profil</div><div class="RightMenuSplitter"></div><div class="RightMenuItem">Indstillinger</div><div class="RightMenuSplitter"></div><div class="RightMenuItem">Facebook Sync</div><div class="RightMenuSplitter"></div><div class="RightMenuItem">Valider Profil</div><div class="RightMenuSplitter"></div><div class="RightMenuItem"><a onclick="Deaktiver_Click" nohref="nohref">Deaktiver Profil</a></div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+        <br><br>
+        
+
+<script language="javascript" type="text/javascript">
+//----------------------------
+// CHAT
+//----------------------------
+
+// TIL AJAXLOAD
+//        AjaxPro.onLoading = function(currentVis) {
+//        var loadingDiv = document.getElementById("loading");
+//        loadingDiv.style.visibility = currentVis ? "visible" : "hidden";
+//        }
+
+    $(function () {
+        Controls_Chat.AddChatter(queryString.getValue("Room"));
+        getChatters();
+        getMsgs();
+        getPrivateMsgs();
+
+        document.getElementById('txtMsg').focus();
+    });
+        
+        function getChatters()
+        {
+            Controls_Chat.GetChatters(queryString.getValue("Room"), getChatters_CallBack ); 
+        }
+        
+        var lastUsers;
+        function getChatters_CallBack( res )
+        {
+            var userBox = document.getElementById('divUsers');
+            if( res.value == '' ) 
+            {
+                setTimeout( "getChatters()", 2000 ); 
+                return;
+            }
+
+            if( lastUsers != res.value )
+            {
+                userBox.innerHTML = res.value; 
+           
+               var thisAtag = $(this);
+               var brugerid = thisAtag.attr("id");
+           
+//               $('#divUsers').find('a').each(function(i){
+//               brugerid = $(this).attr("id");
+//               $(this).simpletip({ 
+//                  fixed: true, 
+//                  position: 'top',
+//                  content: '<a onclick="showProfile(' + brugerid + ')">Vis profil</a><br/>Chat privat<br />'
+//                  });
+//               });
+
+                $("#divUsers a").single_double_click(function () {
+                    showProfile($(this).attr("id"));
+                }, function () {
+                  chatWith($(this).attr("id"), true);
+                })
+
+            }
+            
+            lastUsers = res.value;
+            setTimeout( "getChatters()", 2000 );
+        }
+        
+        function getMsgs()
+        {
+            Controls_Chat.GetMsgs(queryString.getValue("Room"), getMsgs_CallBack );
+        }
+        
+        function getMsgs_CallBack( res )
+        {
+            var chatBox = document.getElementById('divChatBox');
+            if(res.value != "")
+            {
+//            var height = chatBox.clientHeight;
+//            var scroll = chatBox.scrollHeight;
+//            var position = chatBox.scrollTop; 
+//                if((height + position) == scroll)
+//                        {
+
+//                        chatBox.innerHTML += res.value;
+//                        scrollContentDown();
+                //                    }
+
+                $pane2 = $('#divChatBox');
+                var autoScroll = $pane2.data('jScrollPanePosition') == $pane2.data('jScrollPaneMaxScroll');
+
+                $pane2.append(
+								res.value
+								)
+							.jScrollPane(
+								{
+								    showArrows: true,
+								    scrollbarWidth: 20,
+								    scrollbarMargin: 10,
+								    wheelSpeed: 100
+								}
+                							);
+
+                if (autoScroll) {
+                    $pane2[0].scrollTo($pane2.data('jScrollPaneMaxScroll'));
+                }
+           }   
+
+            setTimeout( "getMsgs()", 2000 );
+        }
+        
+        function getPrivateMsgs()
+        {
+            Controls_Chat.GetPrivateMsgs(getPrivateMsgs_CallBack);
+        }
+        
+        function getPrivateMsgs_CallBack( res )
+        {
+            //var chatBox = document.getElementById('divChatBox');
+            
+            
+            if(res.value != "")
+            {
+//                $pane2 = $('#divChatBox');
+//                var autoScroll = $pane2.data('jScrollPanePosition') == $pane2.data('jScrollPaneMaxScroll');
+
+//                $pane2.append(
+//								res.value
+//								)
+//							.jScrollPane(
+//								{
+//								    showArrows: true,
+//								    scrollbarWidth: 20,
+//								    scrollbarMargin: 10,
+//								    wheelSpeed: 100
+//								}
+//                							);
+
+//                if (autoScroll) {
+//                    $pane2[0].scrollTo($pane2.data('jScrollPaneMaxScroll'));
+//                } 
+                var rows = res.value.Tables[0].Rows;
+                for (x in rows)
+                {
+                    var row = rows[x];
+                    if(row["message"] != null)
+                    {
+                        var chatWindow = document.getElementById('user_' + row["from"]);
+                        if(!chatWindow)
+                        {
+                            chatWith(row["from"]); 
+                            
+                        }
+                        setTimeout( "appendMessage(" + row["from"] + ", " + row["message"] + ")", 500 )
+                        
+                        //var chatbox = $('.privMsgBox', '#user_' + row["from"]); 
+                        //chatbox.append(row["message"]);
+                        
+                        //alert('#user_' + row["from"] + ' .privMsgBox');
+                    }
+                }
+           }   
+
+            setTimeout( "getPrivateMsgs()", 2000 );
+        }
+        
+        function appendMessage(user, message) {             
+                        var chatbox = $('#chatbox_' + user); 
+                        chatbox.append(message.toString());
+        }
+
+        function sendMsg() 
+        {
+            var newMsg = '';
+            var txtMsg = document.getElementById('txtMsg');
+            var msg = txtMsg.value;
+            var chatBox = document.getElementById('divChatBox');
+            txtMsg.value = '';
+            txtMsg.focus();
+
+            if(msg != '') {
+                $pane2 = $('#divChatBox');
+                var autoScroll = $pane2.data('jScrollPanePosition') == $pane2.data('jScrollPaneMaxScroll');
+
+                // Kør serverside funktion
+                newMsg = Controls_Chat.SendMsg(queryString.getValue("Room"), msg).value;
+
+                $pane2.append(
+								'<div class="ChatMessageWrapper ColorOwn"><div class=\'ChatNameStyle\'>' + 
+                newMsg.TimeStamp + ' | [<b>' + newMsg.Name + '</b>]</div><div class=\'ChatMessageStyle\'>' +
+                newMsg.Message + '</div></div>'
+								)
+							.jScrollPane(
+								{
+								    showArrows: true,
+								    scrollbarWidth: 20,
+								    scrollbarMargin: 10,
+                                    wheelSpeed: 100,
+                                    animateTo: true
+								}
+                							);
+								
+                if (autoScroll) {
+                    $pane2[0].scrollTo($pane2.data('jScrollPaneMaxScroll'));
+                }
+            }
+        }
+
+        function showProfile(userid) {
+            Controls_Chat.GetProfile(userid, showProfile_CallBack);
+        }
+
+        function showProfile_CallBack(res) {
+            var user = res.value;
+
+            var profilvisning = document.getElementById('ChatProfilVisning');
+            profilvisning.innerHTML = "<img style='margin-right: 10px;' alt=' ' src='Media/img/Major/User_GenderBlackLarge_1.jpg' />" + user.name + " " + user.sirname + " / " +  user.username;
+
+            var profilbillede = $('ProfileSitePicture');
+            profilbillede.innerHTML = "<img src='Media/img/Major/ProfilePictures/danielgogo.jpg' />";
+
+            var chatWith = document.getElementById('chatWith');
+            chatWith.innerHTML = "<a href='#' onclick='chatWith(" + user.id + ", true)'>" + user.username + "</a>";
+
+            $("#UserProfileOpening").animate({
+                "height": "show", "opacity": "show"
+            }, 1000);
+        }
+        
+        function chatWith(userid, selfStarted) {
+            Controls_Chat.GetProfile(userid, newMsg(selfStarted));
+        }
+        
+        function keyDownMessage( e )
+        {
+            e = e || window.event;
+            var charCode = e.keyCode || e.which;
+
+            if( charCode == 13 )
+            {
+                e.returnvalue = false;
+                e.cancel = true;
+                sendMsg();
+            }
+        }
+        
+        function keyPressed(e) {
+	        var keycode;
+	        if (window.event) {
+		        keycode = window.event.keyCode;
+	        }
+	        else if (e) {
+		        keycode = e.which;
+	        }
+	        else {
+		        return (false);
+	        }
+	        return (keycode != 13);
+        }
+        
+        var nav = window.event ? true : false;
+        if (nav) {
+	        window.captureEvents(Event.KEYDOWN);
+	        window.onkeydown = NetscapeEventHandler_KeyDown;
+        } else {
+	        document.onkeydown = IEEventHandler_KeyDown;
+        }
+
+        function NetscapeEventHandler_KeyDown(e) {
+	        if (e.which == 13 && e.target.type != 'textarea' && e.target.type != 'submit') { return false; }
+	        return true;
+        }
+
+        function IEEventHandler_KeyDown() {
+	        if (event.keyCode == 13 && event.srcElement.type != 'textarea' && event.srcElement.type != 'submit')
+		        return false;
+	        return true;
+        }
+        
+        function scrollContentDown() 
+        { 
+            var theDiv = document.getElementById('divChatBox');
+            theDiv.scrollTop = theDiv.scrollHeight - theDiv.clientHeight;  
+        }
+        
+        window.onbeforeunload = function(){
+        Controls_Chat.RemoveChatter();
+        }
+
+//----------------------------
+// Private Chat
+//----------------------------
+//////////////////////////////////////////////
+function chatWith(userid) {
+    Controls_Chat.GetProfile(userid, newMsg);
+}
+
+function updateDraggables() {
+    $("div.draggable").draggable({
+			appendTo: '#droppable',
+			scroll: true,
+			zIndex: 9999,
+			stack: ".draggable",
+			start: function(event, ui) { 
+//			    if($(this).parent().attr('id') == 'gridbox')
+//			        $(this).css('position', 'fixed');
+			    
+			        $(this).data("position", { left: $(this).css('left'), top: $(this).css('top') });
+			        //console.debug("Left: %s", $(this).data("position").left);
+			 }
+		});	
+}
+
+$(function() {		
+    $("#droppable").droppable({
+			activeClass: "droppable",
+			hoverClass: "droppablehover",
+//			accept: ":not(.ui-sortable-helper)",
+            tolerance: 'touch',
+			drop: function(event, ui) {
+			if(ui.draggable.parent().attr('id') != 'droppable')
+                $('.content',ui.draggable).toggleClass('hide');
+//			    minimizeMe(ui.draggable);
+			    
+				$(this).find(".placeholder").remove();
+				ui.draggable.css('position', 'relative');
+				ui.draggable.css('left', '0');
+				ui.draggable.css('top', '0');
+				if(ui.draggable.parent().attr('id') != 'droppable')
+				    ui.draggable.appendTo(this);
+			}
+        });
+        
+        $("#gridbox").droppable({
+			activeClass: "droppable",
+			hoverClass: "droppablehover",
+//			accept: ":not(.ui-sortable-helper)",
+            tolerance: 'intersect',
+			drop: function(event, ui) {	
+			if(ui.draggable.parent().attr('id') == 'droppable')
+			    minimizeMe(ui.draggable);
+			    	    
+				$(this).find(".placeholder").remove();
+				ui.draggable.css('position', 'relative');
+				ui.draggable.css('left', '0');
+				ui.draggable.css('top', '0');
+				if(ui.draggable.parent().attr('id') != 'gridbox')
+				    ui.draggable.appendTo(this);	    
+			}
+        });
+        
+        $("#everything").droppable({
+//			activeClass: "everything",
+//			hoverClass: "everythinghover",
+//			accept: ":not(.ui-sortable-helper)",
+            tolerance: 'fit',
+			drop: function(event, ui) {
+				if(ui.draggable.parent().attr('id') != 'everything')
+				{
+				if(ui.draggable.parent().attr('id') != 'gridbox')
+				minimizeMe(ui.draggable);
+				    ui.draggable.css('position', 'fixed');
+				    ui.draggable.css('left', event.pageX-(ui.draggable.width()/2));
+				    ui.draggable.css('top', event.pageY-(ui.draggable.height()/2)-$(window).scrollTop());
+				    ui.draggable.appendTo($('#everything')); 
+				}
+			}
+        });
+});
+function minimizeMe(dragger) {
+                $('.content',dragger).toggleClass('hide');
+                
+				if($(dragger).parent().attr('id') != 'droppable')
+				{
+				    $('#droppable').find(".placeholder").remove();
+				    $(dragger).css('position', 'relative');
+				    
+				    //Gem boksens position
+				    $(dragger).data("position", { left: $(dragger).css('left'), top: $(dragger).css('top') });
+				    
+				    $(dragger).css('left', '0');
+				    $(dragger).css('top', '0');
+				    $(dragger).appendTo($('#droppable'));
+				} else if($(dragger).parent().attr('id') != 'everything') {
+				    //console.debug("Left: %s", $(dragger).data("position").left);
+				    $(dragger).css('position', 'fixed');
+                    $(dragger).css('left', $(dragger).data("position").left);
+				    $(dragger).css('top', $(dragger).data("position").top);
+				    
+				    $(dragger).appendTo($('#everything'));
+				}
+}
+function gridMe(dragger) {      
+                if($(dragger).parent().attr('id') == 'droppable')
+                    $('.content',$(dragger)).toggleClass('hide');
+        
+				if($(dragger).parent().attr('id') != 'gridbox')
+				{
+				    $('#gridbox').find(".placeholder").remove();
+				    $(dragger).css('position', 'relative');
+				    
+				    //Gem boksens position
+				    $(dragger).data("position", { left: $(dragger).css('left'), top: $(dragger).css('top') });
+				    
+				    $(dragger).css('left', '0');
+				    $(dragger).css('top', '0');
+				    $(dragger).appendTo($('#gridbox'));
+				} else if($(dragger).parent().attr('id') != 'everything') {
+				    //console.debug("Left: %s", $(dragger).data("position").left);
+				    $(dragger).css('position', 'fixed');
+                    $(dragger).css('left', $(dragger).data("position").left);
+				    $(dragger).css('top', $(dragger).data("position").top);
+				    
+				    $(dragger).appendTo($('#everything'));
+				}
+}
+function closeMe(dragger) {
+$(dragger).draggable( "destroy" );
+$(dragger).remove();
+}
+
+function newMsg(res, selfStarted) {
+var user = res.value;
+
+var chatWindow = document.getElementById('user_' + user.id);
+if(!chatWindow)
+{
+    var thisUsersID = Controls_Chat.GetThisUsersID();
+    if(user.id != thisUsersID.value)
+    {
+        $('#everything').append('<div id="user_' + user.id + '" class="draggable"> \
+                <div class="top"><div class="name">' + user.username + '</div> \
+                    <div class="rightButtons"> \
+                        <a onclick="gridMe(this.parentNode.parentNode.parentNode)"><img alt="-" src="Media/img/Minor/PrivateMsg/grid.jpg" /> </a> \
+                        <a onclick="minimizeMe(this.parentNode.parentNode.parentNode)"><img alt="-" src="Media/img/Minor/PrivateMsg/minimize.jpg" /> </a> \
+                        <a onclick="closeMe(this.parentNode.parentNode.parentNode)"><img alt="-" src="Media/img/Minor/PrivateMsg/close.jpg" /> </a> \
+                    </div> \
+                </div> \
+                <div class="content"> \
+                    <div class="privMsgBox" id="chatbox_' + user.id + '"></div> \
+                    <div id="txtMsgWrapper"> \
+                        <textarea onkeyup="privateKeyDownMessage(event, ' + user.id + ');" class="txtMsg" id="txt_' + user.id + '" type="text" /> \
+                    </div> \
+                </div> \
+            </div>');
+            if(selfStarted) { document.getElementById('txt_' + user.id).focus(); }
+    }
+}
+        
+     updateDraggables();   
+}
+
+function privateKeyDownMessage( e, userId )
+        {
+            e = e || window.event;
+            var charCode = e.keyCode || e.which;
+
+            if( charCode == 13 )
+            {
+                var field = document.getElementById('txt_' + userId);
+                field.value = field.value.replace("\n", "");
+                e.returnValue = false;
+                if (e.preventDefault) {
+                    e.preventDefault();
+                }
+                
+                e.cancel = true;
+                sendPrivateMsg(userId);
+            }
+        }
+
+function sendPrivateMsg(userId) 
+        {
+            var newMsg = '';
+            var txtMsg = document.getElementById('txt_' + userId);
+            var msg = txtMsg.value;
+            var chatBox = document.getElementById('divChatBox');
+            txtMsg.value = '';
+            txtMsg.focus();
+
+            if(msg != '') {
+                $pane2 = $('#chatbox_' + userId);
+                //var autoScroll = $pane2.data('jScrollPanePosition') == $pane2.data('jScrollPaneMaxScroll');
+
+                // Kør serverside funktion
+                newMsg = Controls_Chat.SendPrivateMsg(userId, msg).value;
+                
+                $pane2.append('<div class="ChatMessageWrapper ColorOwn"><div class=\'ChatNameMessage\'>' + 
+                newMsg.TimeStamp + ' | <b>' + newMsg.Name + ': </b>' +
+                newMsg.Message + '</div></div>');
+                
+//                $pane2.append(
+//								'<div class="ChatMessageWrapper ColorOwn"><div class=\'ChatNameStyle\'>' + 
+//                newMsg.TimeStamp + ' | [<b>' + newMsg.Name + '</b>]</div><div class=\'ChatMessageStyle\'>' +
+//                newMsg.Message + '</div></div>'
+//								)
+//							.jScrollPane(
+//								{
+//								    showArrows: true,
+//								    scrollbarWidth: 20,
+//								    scrollbarMargin: 10,
+//                                    wheelSpeed: 100,
+//                                    animateTo: true
+//								}
+//                							);
+//								
+//                if (autoScroll) {
+//                    $pane2[0].scrollTo($pane2.data('jScrollPaneMaxScroll'));
+//                }
+            }
+        }
+//////////////////////////////////////////////
+
+
+
+
+    </script>
+    
+    <div id="loading" style="visibility: hidden; position: absolute; top: 50%; left: 50%; margin: -24px -24px 0pt 0pt;">
+
+    <img src="Media/img/Major/AjaxLoader.gif" alt="Loading...">
+    </div>
+
+    <div id="UserProfileOpening" class="UserProfileOpening">
+        <div id="UserProfileGogo">
+            <div id="Profileheader"><div id="ChatProfilVisning"></div></div>
+            <div class="leftwrapper"><div class="picturewrapper"><div class="ProfileSitePicture"></div></div>
+            <div class="infowrapper">
+            <div class="ProfileSiteHeadline" style="margin-top: 25px;">Alder</div><div class="ProfileSiteName">18</div>
+
+            <br><div class="ProfileSiteHeadline">Civilstatus</div><div class="ProfileSiteName">Single</div></div>
+            <div id="mulighedsbox2"><div id="dinemuligheder">Hvad vil du?</div>
+            <div id="mulighedswrapper">
+            <div class="mulighedsitem">Tilføj som ven</div><div class="mulighedsitem">Anbefal Venner</div><div class="mulighedsitem">Vis Billeder (0000)</div>
+            <div class="mulighedsitem">Blokér</div><div class="mulighedsitem">Validér Profil</div><div class="mulighedsitem">Fælles Venner (000)</div>
+
+            <div class="mulighedsitem">Send Besked</div><div class="mulighedsitem">Anmeld</div><div class="mulighedsitem">Venner (0000)</div>
+            <div class="mulighedsitem"><span id="chatWith"></span></div><div class="mulighedsitem">Del</div>
+            </div></div></div>
+
+            <div class="rightwrapper">
+            <div class="Oplysningsfelt">Oplysninger</div>
+            <div class="darklist"><div class="rightfiel
